@@ -1,0 +1,56 @@
+body {
+    background-color: #fff6f6;
+    font-family: 'Dancing Script', cursive;
+    
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links{
+    align-self: center;
+    list-style:none;
+    display:flex;
+    gap: 30px;
+
+}
+.nav_links li a{
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+.home{
+
+    background-color: #f8c8c8;
+    display: flexbox;
+    place-items: center;
+}
+.about{
+    background-color: #ffdcdc;
+    display: flexbox;
+    place-items: center;
+}
+.about h1{
+    align-content: center;
+    padding: 20px
+}
+.education{
+    background-color: #fcd7d7;
+    display: block;
+}
