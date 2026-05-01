@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>list-style-position Example</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      gap: 50px;
+      margin: 40px;
+    }
+
+    .box {
+      width: 220px;
+      background: #f5f5f5;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    ul {
+      width: 180px;
+    }
+
+    .outside ul {
+      list-style-position: outside;
+    }
+
+    .inside ul {
+      list-style-position: inside;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box outside">
+    <h3>Outside</h3>
+    <ul>
+      <li>This is a long list item that goes to the next line and continues.</li>
+      <li>Another long list item example here.</li>
+    </ul>
+  </div>
+
+  <div class="box inside">
+    <h3>Inside</h3>
+    <ul>
+      <li>This is a long list item that goes to the next line and continues.</li>
+      <li>Another long list item example here.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

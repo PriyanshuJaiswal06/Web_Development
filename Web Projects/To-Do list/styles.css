@@ -1,0 +1,29 @@
+body{
+  background-color: #c5e3ed;
+  font-family: Arial, sans-serif;
+  color: #21303a;
+}
+.to-do{
+  background-color: rgb(230, 208, 212);
+}
+.todo-list{
+  background-color:rgb(223, 229, 229);
+  
+}
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+a:hover{
+  color:#1c9eca96;
+}
+a:focus{
+  outline: 2px yellow;
+}
+a:visited{
+   color: purple;
+}

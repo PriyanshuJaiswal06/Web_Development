@@ -1,0 +1,86 @@
+body {
+  background-color: #c5e3ed;
+  font-family: Arial, sans-serif;
+  color: #21303a;
+  line-height: 1.4;
+  padding: 2rem;
+}
+
+.to-do {
+  max-width: 720px;
+  margin: 1.5rem auto;
+  background: #ffffff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+h1 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.6rem;
+}
+
+/* main list */
+.todo-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.todo-list > li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eef3f5;
+  display: block;
+}
+
+/* checkbox + label alignment */
+input[type="checkbox"] {
+  margin-right: 0.6rem;
+  transform: scale(1.05);
+  vertical-align: middle;
+}
+
+label {
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+}
+
+/* strike-through when checked */
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #d6dbdd;
+  opacity: 0.85;
+}
+
+/* nested sub-items */
+.sub-item {
+  margin: 0.35rem 0 0 1.5rem;
+  padding-left: 0;
+  list-style: disc;
+  color: #3b4b4f;
+  font-size: 0.95rem;
+}
+
+/* link styles */
+.sub-item-link {
+  color: #1c9eca;
+  text-decoration: none;
+}
+
+.sub-item-link:hover,
+.sub-item-link:focus {
+  color: #0b6b86;
+  text-decoration: underline;
+}
+
+/* accessibility / focus */
+a:focus {
+  outline: 2px dashed #ffd700;
+  outline-offset: 3px;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
